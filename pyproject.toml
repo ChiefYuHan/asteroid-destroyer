@@ -1,0 +1,12 @@
+[tool.pyright]
+reportAttributeAccessIssue = "none"
+reportOperatorIssue = "none"
+reportUnusedVariable = false
+reportUnusedExpression = false
+
+
+[tool.flake8]
+# ignore = ["F841"]
+
+[tool.ruff]
+ignore = ["F841", "F405"]
